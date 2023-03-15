@@ -1,4 +1,4 @@
-# webpart-editor-assistant
+# webpart-openai-assistant
 
 ## Summary
 
@@ -27,7 +27,7 @@ Designed originally for content editors on SharePoint, but is suitable for any u
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-|  Editor Assistant| @Tarzzi |
+|  Openai Assistant| @Tarzzi |
 
 ## Version history
 
