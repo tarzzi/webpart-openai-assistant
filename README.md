@@ -3,7 +3,7 @@
 ## Summary
 
 Chat platform for OpenAI's gpt-3.5-turbo model.
-Designed originally for content editors on SharePoint, but is suitable for any use case.
+Designed originally for content editors on SharePoint, but is suitable for any use case.  
 
 ![demo.png](demo.png)
 
@@ -45,12 +45,14 @@ Designed originally for content editors on SharePoint, but is suitable for any u
 
 - Clone this repository
 - Ensure that you are at the solution folder
+
+### With Gulp
 - in the command-line run:
   - **npm install**
   - **gulp serve**
 
 ### Or with spfx-fast-serve
-[Link to npm](https://www.npmjs.com/package/spfx-fast-serve)
+[Link to npm instructions](https://www.npmjs.com/package/spfx-fast-serve)
 
 
 ## Features
