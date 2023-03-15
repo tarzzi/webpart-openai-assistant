@@ -5,6 +5,14 @@ import {
 } from "openai";
 import { IChatMessage } from "../components/IChatMessage";
 
+/*
+*  NOTICE - NOT FOR PRODUCTION USE
+*  This should be handled in the backend, only here for demo purposes
+*  Also note that this is not a secure way to handle API keys
+*  See https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/security-considerations
+*  Also does work randomly since sometimes can cause a unsafe header error
+*/
+
 export default class OpenAIService {
   public async callOpenAI(
     chatHistory: IChatMessage[]
@@ -13,7 +21,6 @@ export default class OpenAIService {
       apiKey: "{YOUR_API_KEY}",
     });
     const openai = new OpenAIApi(configuration);
-    // Cannot define max_tokens with a parameter since causes unsafe header error due to being in frontend
     const completion = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages: chatHistory,
@@ -30,4 +37,5 @@ export default class OpenAIService {
       content: responseMessage,
     };
   }
+
 }
