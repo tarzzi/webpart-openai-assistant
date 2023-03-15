@@ -81,7 +81,7 @@ export default class EditorAssistant extends React.Component<
         console.log(error.message);
         const errorResponse: IChatMessage = {
           role: "assistant",
-          content:strings.ApiErrorMessage,
+          content: strings.ApiErrorMessage,
         };
         const conversation = this.state.conversation;
         this.setState({
@@ -141,9 +141,7 @@ export default class EditorAssistant extends React.Component<
     };
 
     return (
-      <section
-        className={styles.editorAssistant}
-      >
+      <section className={styles.editorAssistant}>
         <h1>{title}</h1>
         <div className={styles.inputPart}>
           <Stack horizontal tokens={stackTokens} wrap>

@@ -7,7 +7,10 @@ interface IChatMessageProps {
   message: IChatMessage;
 }
 
-export default class ChatMessage extends React.Component<IChatMessageProps, {}> {
+export default class ChatMessage extends React.Component<
+  IChatMessageProps,
+  {}
+> {
   constructor(props: IChatMessageProps) {
     super(props);
   }
