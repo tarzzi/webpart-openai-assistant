@@ -1,0 +1,83 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.editorAssistant {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+
+  .response {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #9c9c9c;
+    border-radius: 4px;
+  }
+  .inputPart {
+    margin-bottom: 10px;
+  }
+
+  .chat {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1em;
+    border: 1px solid #85858559;
+    border-radius: 4px;
+  }
+  .chatContainer {
+    height: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .messageContainer {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    white-space: pre-line;
+
+    .waitingResponse{
+      width: 135px;
+      margin: 14px 0;
+    }
+
+    .userMessage {
+      float: right;
+      background-color: #dddddd4d;
+      border-radius: 4px;
+      padding: 0.2em 1.5em;
+      margin-left: 1em;
+      margin-right: 1em;
+      max-width: 80%;
+      border-radius: 15px 0 15px 15px;
+      p{
+        color: #b1b1b1;
+      }
+    }
+    .assistantMessage {
+      float: left;
+      background-color: #f2f2f2;
+      border-radius: 4px;
+      padding: 0.2em 1.5em;
+      margin-left: 1em;
+      margin-right: 1em;
+      max-width: 80%;
+      border-radius: 0 15px 15px 15px;
+    }
+    .humanIcon {
+      position: absolute; 
+      right: 7px;
+      top: 0;
+    }
+    .botIcon {
+      position: absolute;
+      top: 0px;
+      left: 7px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "webpart-editor-assistant",
+    "libraryId": "40858c31-9611-466e-995b-420b1c9e14df",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "webpart-editor-assistant",
+    "solutionShortDescription": "webpart-editor-assistant description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

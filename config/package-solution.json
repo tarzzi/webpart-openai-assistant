@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "openai-assistant",
+    "id": "40858c31-9611-466e-995b-420b1c9e14df",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "@Tarzzi",
+      "websiteUrl": "urrio.fi",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "OpenAI ChatGPT based chat assistant"
+      },
+      "longDescription": {
+        "default": "OpenAI ChatGPT based chat assistant but longer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "openai-assistant Feature",
+        "description": "The feature that activates elements of the webpart-editor-assistant solution.",
+        "id": "7bb99e1d-5ca3-4935-bbb2-68f73faa530c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/webpart-editor-assistant.sppkg"
+  }
+}

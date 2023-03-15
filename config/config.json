@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "editor-assistant-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editorAssistant/EditorAssistantWebPart.js",
+          "manifest": "./src/webparts/editorAssistant/EditorAssistantWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EditorAssistantWebPartStrings": "lib/webparts/editorAssistant/loc/{locale}.js"
+  }
+}
