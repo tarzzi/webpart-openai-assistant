@@ -21,7 +21,7 @@ Designed originally for content editors on SharePoint, but is suitable for any u
 ## Prerequisites  
 
 1. Api key
-1. Suitable backend
+1. [Suitable backend for example](https://github.com/tarzzi/openai-backend/tree/master)
 
 ## Solution
 
